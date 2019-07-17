@@ -1,0 +1,23 @@
+.hero {
+	height: 85vh;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.hero__title-container {
+	margin: auto 0 0 0;
+	padding: 2em;
+	background-color: var(--black);
+}
+
+.hero__title {
+	margin: 0 0 0.5em 0;
+	color: var(--white);
+	font-weight: 400;
+}
+
+.hero__sub-title {
+	color: var(--white);
+	font-weight: 300;
+}
