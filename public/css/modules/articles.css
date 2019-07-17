@@ -1,10 +1,70 @@
-.article {
-	padding: 2em;
+.articles {
+	display: grid;
+	grid-gap: 2em;
+}
+
+.article:nth-child(odd) {
+	padding-right: 0;
+}
+
+.article:nth-of-type(even) {
+	padding-left: 0;
+}
+
+.article:nth-of-type(1) {
+	padding-top: 2em;
+}
+
+.article:nth-of-type(3) {
+	padding-bottom: 2em;
+}
+
+.article__img {
+	margin: 0 0 2em 0;
+	width: 90vw;
+	height: 200px;
+	background-color: var(--grey);
+}
+
+.article:nth-of-type(odd) .article__img {
+	margin-left: auto;
+}
+
+.article:nth-of-type(even) .article__img {
+	margin-right: auto;
+}
+
+.article:nth-of-type(1) .article__img {
+	background-color: var(--blue);
+}
+
+.article:nth-of-type(2) .article__img {
+	background-color: var(--green);
+}
+
+.article:nth-of-type(3) .article__img {
+	background-color: var(--orange);
+}
+
+.article__copy-container {
+	padding: 0 2em;
 }
 
 .article__title {
-	margin: 0 0 0.5em 0;
-	font-weight: 500;
+	margin: 0 0 1em 0;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.article__sub-title {
+	display: none;
+	margin: 0 0 1em 0;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.article:nth-of-type(2) .article__sub-title {
+	display: block;
 }
 
 .article__copy {
