@@ -3,3 +3,15 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+
+.display--flex-h {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.display--flex-v {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
