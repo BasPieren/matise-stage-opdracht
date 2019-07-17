@@ -1,0 +1,12 @@
+.article {
+	padding: 2em;
+}
+
+.article__title {
+	margin: 0 0 0.5em 0;
+	font-weight: 500;
+}
+
+.article__copy {
+	font-weight: 300;
+}
