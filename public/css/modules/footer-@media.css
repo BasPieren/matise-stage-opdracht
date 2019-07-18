@@ -1,9 +1,15 @@
 @media (min-width: 1024px) {
 	.footer {
-		height: 40vh;
+		height: 50vh;
 	}
 
 	.footer__title {
 		font-size: 3em;
+	}
+}
+
+@media (min-width: 1920px) {
+	.footer__title {
+		font-size: 4.5em;
 	}
 }

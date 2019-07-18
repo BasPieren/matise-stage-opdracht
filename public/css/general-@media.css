@@ -3,3 +3,9 @@
 		padding: 3em 4em;
 	}
 }
+
+@media (min-width: 1920px) {
+	.container {
+		padding: 5em 6em;
+	}
+}

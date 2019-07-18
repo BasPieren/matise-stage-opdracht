@@ -2,8 +2,8 @@
 	.articles {
 		display: grid;
 		grid-template-columns: 1fr 1.5fr 1fr;
-		grid-gap: 5em;
-		margin-top: 4em;
+		grid-gap: 4em;
+		margin-top: 3em;
 	}
 
 	.article {
@@ -13,5 +13,12 @@
 
 	.article__copy-container {
 		padding: 0 !important;
+	}
+}
+
+@media (min-width: 1920px) {
+	.articles {
+		grid-gap: 5em;
+		margin-top: 4em;
 	}
 }
