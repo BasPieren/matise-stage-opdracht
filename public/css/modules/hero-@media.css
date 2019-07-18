@@ -5,7 +5,7 @@
 
 	.hero__title-container {
 		margin: auto 0 4em 0;
-		padding: 2em 6em;
+		padding: 2em 6em 2em 4em;
 		width: fit-content;
 		background-color: var(--white);
 	}
@@ -13,12 +13,12 @@
 	.hero__title {
 		margin: 0 0 0.25em 0;
 		color: var(--black);
-		font-size: 3.5em;
+		font-size: 4em;
 	}
 
 	.hero__sub-title {
 		color: var(--black);
 		font-weight: 300;
-		font-size: 2.75em;
+		font-size: 3.25em;
 	}
 }
