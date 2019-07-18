@@ -1,0 +1,17 @@
+@media (min-width: 1024px) {
+	.articles {
+		display: grid;
+		grid-template-columns: 1fr 1.5fr 1fr;
+		grid-gap: 2em;
+		margin-top: 2em;
+	}
+
+	.article {
+		width: auto;
+		padding: 0 !important;
+	}
+
+	.article__copy-container {
+		padding: 0 !important;
+	}
+}
