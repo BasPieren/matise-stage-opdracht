@@ -1,0 +1,9 @@
+@media (min-width: 1024px) {
+	.footer {
+		height: 40vh;
+	}
+
+	.footer__title {
+		font-size: 3.5em;
+	}
+}

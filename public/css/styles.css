@@ -2,12 +2,16 @@
 @import "./fonts.css";
 @import "./root.css";
 @import "./general.css";
+@import "./general-@media.css";
 
 /* ---------- HEADER ---------- */
 @import "./modules/hero.css";
+@import "./modules/hero-@media.css";
 
 /* ---------- ARTICLES ---------- */
 @import "./modules/articles.css";
+@import "./modules/articles-@media.css";
 
 /* ---------- FOOTER ---------- */
 @import "./modules/footer.css";
+@import "./modules/footer-@media.css";
