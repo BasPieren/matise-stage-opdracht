@@ -1,7 +1,7 @@
 import { saveLocalStorage } from "./localStorage.js"
 
-function getData() {
-	const url = "https://stage.matise.nl/api/"
+function getData(link) {
+	const url = link
 
 	fetch(url)
 		.then(res => {
