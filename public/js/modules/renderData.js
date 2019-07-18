@@ -1,6 +1,5 @@
 function hero() {
-	const hero = document.getElementsByClassName("hero"),
-		heroBg = document.getElementsByClassName("hero__background"),
+	const heroBg = document.getElementsByClassName("hero__background"),
 		heroTitle = document.getElementsByClassName("hero__title"),
 		heroSubTitle = document.getElementsByClassName("hero__sub-title")
 
