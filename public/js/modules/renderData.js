@@ -1,12 +1,13 @@
 function hero() {
 	const hero = document.getElementsByClassName("hero"),
+		heroBg = document.getElementsByClassName("hero__background"),
 		heroTitle = document.getElementsByClassName("hero__title"),
 		heroSubTitle = document.getElementsByClassName("hero__sub-title")
 
 	let data = localStorage.getItem("dataMatiseOpdracht"),
 		dataParse = JSON.parse(data)
 
-	hero[0].style.backgroundImage = "url(" + dataParse.articles[0].image + ")"
+	heroBg[0].style.backgroundImage = "url(" + dataParse.articles[0].image + ")"
 	heroTitle[0].textContent = dataParse.articles[0].title
 	heroSubTitle[0].textContent = dataParse.articles[0].subtitle
 }
