@@ -18,7 +18,8 @@ function articles() {
 	dataParse.articles.slice(1).forEach(a => {
 		const articleContainer = document.getElementsByClassName("articles"),
 			article = document.createElement("article"),
-			div = document.createElement("div"),
+			articleCon = document.createElement("div"),
+			copyCon = document.createElement("div"),
 			img = document.createElement("div"),
 			h3 = document.createElement("h3"),
 			h4 = document.createElement("h4"),
@@ -28,7 +29,8 @@ function articles() {
 
 		article.className = "article"
 		img.className = "article__img"
-		div.className = "article__copy-container"
+		articleCon.className = "article__container"
+		copyCon.className = "article__copy-container"
 		h3.textContent = a.title
 		h3.className = "article__title"
 		h4.textContent = a.title
@@ -37,11 +39,12 @@ function articles() {
 		p.className = "article__copy"
 
 		articleContainer[0].appendChild(article)
-		article.appendChild(img)
-		article.appendChild(div)
-		div.appendChild(h3)
-		div.appendChild(h4)
-		div.appendChild(p)
+		article.appendChild(articleCon)
+		articleCon.appendChild(img)
+		articleCon.appendChild(copyCon)
+		copyCon.appendChild(h3)
+		copyCon.appendChild(h4)
+		copyCon.appendChild(p)
 	})
 }
 
